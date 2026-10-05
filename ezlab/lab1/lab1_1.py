@@ -1,0 +1,10 @@
+surname = input("Фамилия: ")
+name = input("Имя: ")
+group = input("Группа: ")
+city = input("Город: ")
+age = int(input("Возраст в полных годах: "))
+subject = input("Любимый предмет: ")
+hours_per_week = float(input("Количество часов подготовки в неделю: "))
+
+print("Карточка студента:")
+print(f"Фамилия: {surname}, Имя: {name}, Группа: {group}, Город: {city}, Полное имя: {name} {surname}, Возраст: {age + 4}, Любимый предмет: {subject}, Часов в неделю: {hours_per_week:.2f}, За 4 недели: {hours_per_week * 4:.2f}, В день: {hours_per_week / 7:.2f}")

@@ -1,0 +1,6 @@
+tex = input("Введите текст: ")
+result = " ".join(tex.split())
+print(f"Исходная длина: {len(tex)}")
+print(f"Новая длина: {len(result)}")
+print(f"Нормализованный текст: {result}")
+print(f"Слов: {len(result.split())}")
